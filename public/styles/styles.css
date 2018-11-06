@@ -1,0 +1,35 @@
+body {
+  
+  background-image: url(../images/cont.png);
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.jumbotron {
+  /* background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #444349 75%); */
+
+  /* height: 0; */
+  
+  
+  text-align: center;
+  
+  background-size: cover;
+  background: contain;
+  color: yellow;
+  
+  text-shadow: 2px 2px 4px #000000;
+  background-image: url(../images/ssb.png);
+  /* background-position: center; */
+
+}
+
+
+.card-header {
+  opacity: 0.9;
+  background-color: firebrick;
+}
+.card-body {
+  opacity: 0.9;
+  background-color: white;
+}
