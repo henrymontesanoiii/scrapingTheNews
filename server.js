@@ -28,12 +28,13 @@ app.use(express.static("public"));
 
 // Connect to the Mongo DB
 
-mongoose.connect("mongodb://localhost/hign", { useNewUrlParser: true });
-// var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+// mongoose.connect("mongodb://localhost/hign", { useNewUrlParser: true });
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/hign";
 
-// mongoose.connect(MONGODB_URI, {
-//   useNewUrlParser: true
-// });
+
+mongoose.connect(MONGODB_URI, {
+  useNewUrlParser: true
+});
 
 // Routes
 
