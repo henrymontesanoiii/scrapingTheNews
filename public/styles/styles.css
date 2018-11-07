@@ -16,20 +16,29 @@ body {
   
   background-size: cover;
   background: contain;
-  color: yellow;
+  color: #ff0404;
   
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 5px 5px 5px #000000;
   background-image: url(../images/ssb.png);
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 20px;
   /* background-position: center; */
 
 }
 
 
 .card-header {
-  opacity: 0.9;
-  background-color: firebrick;
+  opacity: 1.0;
+  background-color: rgb(86, 236, 241);
+  color :#f39778;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Bangers', cursive;
 }
 .card-body {
   opacity: 0.9;
   background-color: white;
+}
+
+.btn {
+  text-shadow: 0 0 3px #FF0000;
 }

@@ -28,7 +28,7 @@ app.use(express.static("public"));
 
 // Connect to the Mongo DB
 
-mongoose.connect("mongodb://localhost/mongoHeadlines", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost/hign", { useNewUrlParser: true });
 // var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
 // mongoose.connect(MONGODB_URI, {
@@ -89,7 +89,7 @@ app.get("/scrape", function (req, res) {
 // Route for getting all Articles from the db
 app.get("/articles", function (req, res) {
   // TODO: Finish the route so it grabs all of the articles
-  db.Article.find({})
+  db.Article.find({}).limit(10)
     .then(function (dbArticles) {
 
       res.json(dbArticles);
