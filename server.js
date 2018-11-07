@@ -31,10 +31,7 @@ app.use(express.static("public"));
 // mongoose.connect("mongodb://localhost/hign", { useNewUrlParser: true });
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/hign";
 
-
-mongoose.connect(MONGODB_URI, {
-  useNewUrlParser: true
-});
+mongoose.connect(MONGODB_URI);
 
 // Routes
 
