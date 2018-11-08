@@ -1,8 +1,8 @@
 # H-IGN: a Mongoose IGN Scraper
 
-![1](https://drive.google.com/file/d/1LWju0u1x5Ge8m13AQMYTjpPCmEfyLna6/view?usp=sharing)
+![1](/public/images/H1.png)
 
-![2](https://drive.google.com/file/d/1Muy5cf2hC_BCsKZCqjZHHQoEnLINlEq-/view?usp=sharing)
+![2](/public/images/H2.png)
 
 ----
 ## Basic Functionality
