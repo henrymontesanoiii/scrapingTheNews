@@ -13,5 +13,5 @@
 ----
 ## Demo:
 
-[[TUTORIAL LINK]](https://drive.google.com/open?id=1L7m3RZ06F6pArylSjTN7XENbijgpgUIR "Tutorial")
+[[TUTORIAL LINK]](https://drive.google.com/file/d/1mb4cZngrHim86cjTzsIQ7JLk_3gaFtnk/view?usp=sharing "Tutorial")
 
