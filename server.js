@@ -87,7 +87,7 @@ app.get("/scrape", function (req, res) {
 // Route for getting all Articles from the db
 app.get("/articles", function (req, res) {
   // TODO: Finish the route so it grabs all of the articles
-  db.Article.find({}).limit(10)
+  db.Article.find({}).sort({_id:1}).limit(10)
     .then(function (dbArticles) {
 
       res.json(dbArticles);
